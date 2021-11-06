@@ -8,7 +8,7 @@ python generator.py
 ```
 
 ## Neo4j graph creation
-Start a python http server using `python -m http.server 8080` at the parent directory of JSON data files.
+Start a python http server using `python -m http.server 8080` at the parent directory of JSON data files. Then in the Neo4j browser, execute the following command:
 
 ```cypher
 //Create graph - Degree
